@@ -31,9 +31,10 @@ img {
     gap: 50px;
     width: 80%;
     margin: auto;
+    margin-top: 30px;
 }
 
-.info-text {
+.info {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -42,3 +43,28 @@ img {
     font-size: 1.5em;
 }
 
+.Wai-O-Tapu {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.milford-sound {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.two-column-milford { 
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.two-column-wai-o-tapu {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
