@@ -1,5 +1,5 @@
-.hero-image {
-    background-image: url("./Images/Background\ Image.jpg");
+.hero-image { /*Hero Image*/
+    background-image: url("./Images/Hero\ Image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,6 @@
     width: 100%;
 }
 
-
 .hero-text {
     color: whitesmoke;
     text-align: center;
@@ -16,15 +15,10 @@
     margin-top: 200px;
     width: 100%;
     font-size: 5rem;
+    text-decoration: underline;
 }
 
-img {
-    width: 100%;
-    transition: width 1s;
-}
-
-
-.two-column { 
+.two-column { /*Two Column Layout*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 75px;
@@ -33,9 +27,8 @@ img {
     margin-top: 40px;
 }
 
-
 .info {
-    font-size: 2em;
+    font-size: 2rem;
     width: 100%;
     text-align: center;
 }
@@ -44,32 +37,27 @@ img {
     font-size: 0.9em;
 }
 
-h1 {
-    text-decoration: underline;
-    text-align: center;
-}
-
-.milford-sound-image {
-    margin-top: 20px;
-}
-
-.one-column {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.sky-tower-img {
-    width: 82.95%;
-    margin-left: auto;
-    margin-right: auto;
+img {
+    width: 100%;
+    transition: width 1s; /*Image zoom in animation*/
 }
 
 img:hover {
-    width: 102.5%;
+    width: 102.5%; /*Image zoom in size*/
+}
+
+.milford-sound-image {
+    margin-top: 20px; /*Giving the milford sound image space from the mount cook info*/
+}
+
+.sky-tower-img {
+    width: 82.95%; /*Resized the sky tower image to make it fit*/
+    margin-left: auto; /*Centering sky tower image*/
+    margin-right: auto;
 }
 
 .wai-o-tapu-image {
-    margin-top: 25px;
+    margin-top: 25px; /*Giving the wai-o-tapu image space from the milford sound info*/
 }
+
+/*End of Code*/
